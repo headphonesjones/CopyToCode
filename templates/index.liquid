@@ -1,10 +1,15 @@
 {% block content %} 
 	<div class="row">
-		<img class="logo" alt="Copy to Code Logo" src="../assets/img/CopyToCode-Logo.png" width="100" height="100" />
+		<div id="logo-flag">
+			<img class="logo" alt="Copy to Code Logo" src="../assets/img/CopyToCode-Logo.png" width="100" height="100" />
+		</div>
         <h1 class="logo-text">Copy To Code</h1>
     </div>
     <div class="row">
-    	<h5>Input Text Here</h5>
+    	<h5 class="input-top-label">Input Text Here</h5>
     	<textarea id="input-text"></textarea>
+    	<div class="large-3 large-centered small-4 small-centered columns">
+    		<a class="button expand button--convert" href="#">Convert My Copy</a>
+    	</div>
     </div>
 {% endblock %}
