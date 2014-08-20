@@ -1,0 +1,30 @@
+// Make sure the charset is set appropriately
+@charset "UTF-8";
+
+// Global Foundation Settings
+@import "foundation/settings";
+
+// You can import only specific elements by adjusting the import below
+@import "foundation";
+
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Open Sans', serif;
+	font-weight: 700; 
+}
+p, input, label{
+	font-family: 'Open Sans', sans-serif;
+}
+#input-text{
+	height: 400px;
+	border: 10px solid #000000;
+	background-color: #fbfbfb;
+}
+
+#input-text:focus{
+	height: 400px;
+	border: 10px solid #187102;
+	background-color: white;
+}
